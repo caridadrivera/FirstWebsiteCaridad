@@ -16,17 +16,6 @@
 }
 
 
-html,
-body {
-    background-color: #fff;
-    color:#555;
-    font-family: 'lato', 'arial','sans-serif';
-    font-weight:300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-}
-
 .clearfix {zoom: 1}
 .clearfix:after {
     content:'.';
@@ -39,6 +28,21 @@ body {
 /*-----------------------------*/
 /* REUSABLE COMPONENTS */
 /*-----------------------------*/
+
+
+html,
+
+body {
+
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+
+}
 
 
 
@@ -58,7 +62,7 @@ section {
 
 /*---- HEADINGS ----*/
 
-}
+
 
 
 h1,
@@ -164,7 +168,9 @@ a:hover,
 a:active {
     color: #555;
     border-bottom: 1px solid transparent;
-    transition: border-bottom: 2s, color: 0.2s;
+    transition: 0.2s;
+    border-bottom: 2px;
+    
 }
 
 /*------BUTTONS-----*/
@@ -324,7 +330,7 @@ header {
     width:100%;
     height:auto;
     transform: scale(1.15);
-    transition: transform 0.5s; opacity 0.5s;
+    transition: 0.5s;
 }
 
 .meal-photo img:hover {
@@ -552,12 +558,11 @@ input[type=checkbox]{
     margin: 10px 5px 10px 0;
 }
 
-*:focus {outline:none}
+*:focus {outline:none;}
 
 /*-----------------------------*/
 /*FOOTER*/
 /*-----------------------------*/
-
 
 
 footer {
@@ -598,7 +603,7 @@ footer {
     text-decoration: none;
     border: 0;
     color: #888;
-    transition: color 0.2s;
+    transition: 0.2s;
 }
 
 
@@ -618,7 +623,7 @@ footer {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
-    transition: color: 0.2s;
+    transition: 0.2s;
 }
 
 .ion-social-facebook:hover{
@@ -642,7 +647,7 @@ footer {
 
 footer p {
     color: #888;
-    text-align: center
-    margin: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
